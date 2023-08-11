@@ -1,0 +1,13 @@
+ - php artisan migrate:status
+- php artisan migrate
+- php artisan make:migration name_migrations_table
+- php artisan make:migration add_category_to_products_table (para criar campo na tabela existente)
+- php artisan migrate:rollback(apagar uma ultima column que foi adicionado)
+-php artisan migrate:reset 
+- php artisan migrate:refresh
+- php artisan migrate:fresh
+- php artisan make:model Event
+-  php artisan make:migration add_image_to_evenvents_table
+- installe pacote no laravel com composer
+ ex: composer require laravel/jetstream , pra authentificacao no sistema 
+ e depois installe via artisan : php artisan jetstream:install livewire
